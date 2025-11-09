@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="photo.png" alt="My image" />
+        <p>
+          Hello! I am Himalaya, a passionate and result-driven web developer
+          with a love for turning ideas into reality through clean, creative,
+          and efficient web solutions.
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>Learning</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr />
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+          <h3>Portfolio Using Only HTML</h3>
+          <p>
+            This portfolio was built completely with HTML tags. By using
+            semantic elements like
+            <code>header</code>, <code>nav</code>, <code>main</code>, and
+            <code>section</code>, I created a structured and accessible layout.
+          </p>
+        </article>
+
+        <article>
+          <h3>Calorie Tracker Using Python</h3>
+          <p>
+            A Python-based calorie tracking tool that calculates daily calorie
+            intake using multiple inputs.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+          <table>
+            <tr>
+              <td><label for="name">Your Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter Your Name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Your Email:</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Your Email"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="tel">Your Phone No.:</label></td>
+              <td>
+                <input
+                  type="tel"
+                  id="tel"
+                  name="tel"
+                  placeholder="Enter Your Phone Number"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="msg">Message:</label></td>
+              <td>
+                <textarea
+                  id="msg"
+                  name="msg"
+                  cols="30"
+                  rows="3"
+                  placeholder="Enter Your Message"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" value="Submit" /></td>
+            </tr>
+          </table>
+        </form>
+      </section>
+
+      <a href="#" id="topBtn">↑</a>
+    </main>
+  </body>
+</html>
