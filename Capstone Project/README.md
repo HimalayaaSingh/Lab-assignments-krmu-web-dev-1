@@ -47,6 +47,3 @@ Right-click index.html → Open with Live Server
 # github link
 https://github.com/HimalayaaSingh/Lab-assignments-krmu-web-dev-1
 
-12. Footer
-
-Simple responsive footer with branding
