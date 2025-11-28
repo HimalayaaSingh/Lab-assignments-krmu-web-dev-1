@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wanderlust Travel Landing Page</title>
+
+    <!-- Google Font (optional) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Wanderlust ✈️</div>
+          <ul class="nav-links">
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="btn">Plan a Trip</button>
+        </nav>
+      </div>
+    </header>
+
+    <!--  HERO BANNER -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Explore the world with Wanderlust Travel</h1>
+        <p>
+          A simple, responsive travel landing page built using only HTML and
+          CSS. Discover destinations, curated packages, and easy contact
+          options.
+        </p>
+        <button class="btn">View Popular Trips</button>
+        <div class="hero-meta">
+          100+ trips planned • 40+ destinations • No JS, only CSS
+        </div>
+      </div>
+    </section>
+
+    <!--  POPULAR DESTINATIONS (GRID) -->
+    <section id="destinations">
+      <div class="container">
+        <h2>Popular Destinations</h2>
+        <p class="section-subtitle">
+          A quick look at some top places loved by travelers.
+        </p>
+
+        <div class="dest-grid">
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80"
+              alt="Beach"
+            />
+            <div class="dest-body">
+              <h3>Maldives</h3>
+              <p class="dest-meta">
+                4N • Over-water villas and clear blue water.
+              </p>
+            </div>
+          </article>
+
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=900&q=80"
+              alt="City"
+            />
+            <div class="dest-body">
+              <h3>Paris</h3>
+              <p class="dest-meta">
+                3N • Cafés, museums and Eiffel Tower views.
+              </p>
+            </div>
+          </article>
+
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=900&q=80"
+              alt="City"
+            />
+            <div class="dest-body">
+              <h3>Tokyo</h3>
+              <p class="dest-meta">
+                5N • Neon streets, food markets and temples.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--  TOUR PACKAGES  -->
+    <section id="packages">
+      <div class="container">
+        <h2>Tour Packages</h2>
+        <p class="section-subtitle">
+          Simple packages that show duration and price.
+        </p>
+
+        <div class="packages-row">
+          <article class="package-card">
+            <div>
+              <h3>Beach Escape – Goa</h3>
+              <p class="package-meta">3 days • Hotel + Breakfast</p>
+              <p>Perfect short break with beaches, cafés and sunsets.</p>
+            </div>
+            <div>
+              <p class="package-price">From ₹9,999 / person</p>
+              <button class="btn" style="font-size: 0.8rem">
+                View Details
+              </button>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div>
+              <h3>Hills & Snow – Manali</h3>
+              <p class="package-meta">4 days • Cab + Hotel</p>
+              <p>Enjoy mountains, rivers and cold weather with friends.</p>
+            </div>
+            <div>
+              <p class="package-price">From ₹12,500 / person</p>
+              <button class="btn" style="font-size: 0.8rem">
+                View Details
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <p class="section-subtitle">
+          Three simple steps to book your next trip.
+        </p>
+
+        <div class="steps-row">
+          <article class="step-card">
+            <span class="step-number">Step 1</span>
+            <h3>Share your plan</h3>
+            <p>Tell us your dates, budget and destination idea.</p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">Step 2</span>
+            <h3>Get itinerary</h3>
+            <p>We suggest a trip plan with hotels and activities.</p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">Step 3</span>
+            <h3>Confirm & travel</h3>
+            <p>We book everything and you just enjoy the journey.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--  TESTIMONIALS -->
+    <section id="testimonials">
+      <div class="container">
+        <h2>Traveler Testimonials</h2>
+        <p class="section-subtitle">Short reviews that build trust.</p>
+
+        <div class="test-row">
+          <article class="test-card">
+            <p>
+              “Very smooth booking process and good hotel suggestions for our
+              Goa trip.”
+            </p>
+            <div class="test-footer">
+              <div class="avatar">
+                <img
+                  src="https://randomuser.me/api/portraits/men/31.jpg"
+                  alt="User"
+                />
+              </div>
+              <div>
+                <div class="test-name">Aman Verma</div>
+                <div class="test-trip">Goa • 3N</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="test-card">
+            <p>
+              “They helped us plan our first hill station trip. Very helpful
+              support team.”
+            </p>
+            <div class="test-footer">
+              <div class="avatar">
+                <img
+                  src="https://randomuser.me/api/portraits/women/45.jpg"
+                  alt="User"
+                />
+              </div>
+              <div>
+                <div class="test-name">Riya Sharma</div>
+                <div class="test-trip">Manali • 4N</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG PREVIEWS -->
+    <section id="blog">
+      <div class="container">
+        <h2>Blog Previews</h2>
+        <p class="section-subtitle">Simple blog cards using a grid layout.</p>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <img
+              src="https://images.unsplash.com/photo-1519817650390-64a93db511aa?auto=format&fit=crop&w=900&q=80"
+              alt="Blog"
+            />
+            <div class="blog-body">
+              <p class="blog-meta">Guide • 4 min read</p>
+              <h3 class="blog-title">How to pack light for a weekend trip</h3>
+              <a href="#" class="blog-link">Read more →</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img
+              src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?auto=format&fit=crop&w=900&q=80"
+              alt="Blog"
+            />
+            <div class="blog-body">
+              <p class="blog-meta">Tips • 3 min read</p>
+              <h3 class="blog-title">
+                Budget planning for your first vacation
+              </h3>
+              <a href="#" class="blog-link">Read more →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--  STATS COUNTER -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-row">
+          <div class="stat">
+            <div class="stat-number">40+</div>
+            <div class="stat-label">Destinations</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">100+</div>
+            <div class="stat-label">Trips Planned</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">4.8★</div>
+            <div class="stat-label">Rating</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  NEWSLETTER SIGNUP -->
+    <section class="newsletter">
+      <div class="container newsletter-inner">
+        <div class="newsletter-text">
+          <h2 style="text-align: left">Newsletter Signup</h2>
+          <p>Enter your email to receive travel deals and updates.</p>
+        </div>
+        <form class="newsletter-form" action="#" method="post">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p class="section-subtitle">
+          Simple contact form and a map mock layout.
+        </p>
+
+        <div class="contact-grid">
+          <!-- Contact form -->
+          <div class="contact-form">
+            <h3>Send a message</h3>
+            <form action="#" method="post">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="destination">Destination</label>
+                  <input type="text" id="destination" name="destination" />
+                </div>
+                <div class="form-group">
+                  <label for="dates">Dates</label>
+                  <input type="text" id="dates" name="dates" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button class="btn" type="submit">Submit</button>
+            </form>
+          </div>
+
+          <!-- Map mock -->
+          <div class="contact-map">
+            <h3>Our Location</h3>
+            <p>Wanderlust Travel Office • New Delhi, India</p>
+            <div class="map-box"></div>
+            <p>Mon–Sat • 10 AM to 7 PM<br />Email: support@wanderlust.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <span>© 2025 Wanderlust Travel. All rights reserved.</span>
+          <span>Built using only HTML & CSS.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
